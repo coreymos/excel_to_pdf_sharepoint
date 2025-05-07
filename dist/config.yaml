@@ -1,0 +1,16 @@
+# config.yaml
+# Required by main.py to configure either SharePoint or mock gateway
+
+# When using real SharePoint:
+tenant: your-tenant.sharepoint.com      # e.g. contoso.sharepoint.com
+site: your-site-name                    # e.g. MarketingTeam
+root_folder: /sites/your-site-name/Shared Documents/Input
+output_folder: Shared Documents/Output
+
+auth:
+  client_id: 04f0c124-f2bc-4f7a-ac24-a29dd5d43626  # or your registered Azure AD app ID
+  tenant_id: common                               # or your tenant GUID
+
+# When using --mock-local, point these to local directories:
+local_root: SharePoint Automation                       # e.g. ./test_data
+local_output: SharePoint Automation            # e.g. ./mock_output

@@ -1,0 +1,4 @@
+Office365_REST_Python_Client
+pywin32
+PyYAML
+azure-identity
