@@ -37,7 +37,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     exclude_binaries=False,
-    name='main',
+    name='run',
     debug=False,
     strip=False,
     upx=True,
